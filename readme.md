@@ -15,3 +15,21 @@ git add <file>
 
 git commit -m <message> //添加 提交
 
+
+
+head 指向版本就是当前版本
+
+git reset --hard commit_id    //指向当前版本
+
+
+
+git log
+
+git reflog   //查看历史版本
+
+
+
+
+
+
+
