@@ -104,3 +104,6 @@ git commit -m "conflict fixed"
 
 用`git log --graph`命令可以看到分支合并图。
 
+------
+
+test
