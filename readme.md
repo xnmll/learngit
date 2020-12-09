@@ -3,7 +3,7 @@ Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
-Creating a new branch is quick & simple.
+Creating a new branch is quick and simple.
 ```
 
 ------
@@ -12,25 +12,19 @@ summary
 
 git init //初始化
 
-
-
 git add <file>
 
 git commit -m <message> //添加 提交
-
-
 
 head 指向版本就是当前版本
 
 git reset --hard commit_id    //指向当前版本
 
-
-
 git log
 
 git reflog   //查看历史版本
 
-
+----
 
 命令`git checkout -- readme.txt`意思就是，把`readme.txt`文件在工作区的修改全部撤销，这里有两种情况：
 
@@ -47,4 +41,24 @@ git reflog   //查看历史版本
 关联后，使用命令`git push -u origin master`第一次推送master分支的所有内容；
 
 此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改；
+
+----
+
+查看分支：`git branch`
+
+创建分支：`git branch <name>`
+
+切换分支：`git checkout <name>`或者`git switch <name>`
+
+创建+切换分支：`git checkout -b <name>`或者`git switch -c <name>`
+
+合并某分支到当前分支：`git merge <name>`
+
+删除分支：`git branch -d <name>`
+
+----
+
+https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344
+
+
 
