@@ -58,7 +58,49 @@ git reflog   //查看历史版本
 
 ----
 
-https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344
+```
+git switch -c feature1
+```
 
+```
+git add readme.txt
+```
 
+```
+git commit -m "AND simple"
+```
+
+```
+git switch master
+```
+
+```
+git add readme.txt 
+```
+
+```
+git commit -m "& simple"
+```
+
+```
+git merge feature1
+```
+
+```
+git status
+```
+
+```
+git add readme.txt 
+```
+
+```
+git commit -m "conflict fixed"
+```
+
+当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+
+解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
+
+用`git log --graph`命令可以看到分支合并图。
 
